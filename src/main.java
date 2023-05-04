@@ -11,5 +11,8 @@ public class main {
         catch (IOException e){
             e.printStackTrace();
         }
+        finally{
+         System.out.println("\nFin del programa...");   
+        }
     }
 }
